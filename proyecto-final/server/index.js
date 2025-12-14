@@ -21,7 +21,8 @@ await connectBD();
 const api = express();
 
 // uso del Middleware para que acepte las peticiones
-api.use(cors());
+//api.use(cors());
+api.use(cors({origin: 'https://rosybrown-dinosaur-790845.hostingersite.com'}));
 
 // se pasa a json para las peticiones de post/put (crear y editar)
 api.use(express.json());
