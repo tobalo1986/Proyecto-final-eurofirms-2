@@ -1,5 +1,5 @@
 import express, { request, response } from "express";
-import cors from "cors";
+import cors from 'cors';
 // para usar la BD -
 // usar la variables de entorno que hay en .env
 import dotenv from "dotenv";
